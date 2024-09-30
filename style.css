@@ -1,0 +1,60 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #FFD700, #FF6347, #FF69B4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+}
+
+/* Birthday Heading */
+.birthday-heading {
+    font-size: 3em;
+    color: #FF69B4; /* Bright Pink */
+    margin-bottom: 10px;
+}
+
+/* Birthday Message */
+.birthday-message {
+    font-size: 1.5em;
+    color: #fb5607; /* Bright Orange */
+    margin-bottom: 20px;
+}
+
+/* Birthday GIF */
+.birthday-gif {
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* Signature */
+.signature {
+    font-size: 1.2em;
+    color: #b72ca5; /* Gold */
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .birthday-heading {
+        font-size: 2.5em;
+    }
+    .birthday-message {
+        font-size: 1.2em;
+    }
+}
